@@ -62,7 +62,7 @@ public class DynamicIntArray {
     }
 
     public String toString() {
-        StringBuilder arrayString = new StringBuilder();
+        StringBuilder arrayString = new StringBuilder("");
         for (int i = 0; i < this.size; i++) {
             arrayString.append(" ");
             arrayString.append(this.dynamicArray[i]);
